@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F6a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="By6-Ql-uIz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="By6-Ql-uIz">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -24,12 +24,14 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi there!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J5V-th-GOK">
                                 <rect key="frame" x="16" y="20" width="288" height="70"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" name="KaushanScript-Regular" family="Kaushan Script" pointSize="48"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I’m here to help you keep track of a simple healthy habit:  drinking water." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbP-89-LG1">
                                 <rect key="frame" x="16" y="140" width="288" height="66"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -39,6 +41,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hyR-yx-vfK">
                                         <rect key="frame" x="240" y="20" width="60" height="60"/>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="DQN-JD-3BE"/>
@@ -57,6 +60,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="hyR-yx-vfK" secondAttribute="bottom" constant="20" id="3ab-xY-wUg"/>
@@ -65,6 +69,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.15686274509803921" green="0.39215686274509803" blue="0.77254901960784317" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="dbP-89-LG1" firstAttribute="trailing" secondItem="xIA-iZ-6Zs" secondAttribute="trailingMargin" id="1Qy-OR-nxD"/>
@@ -105,6 +110,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNx-Gk-pr3" userLabel="Header">
                                 <rect key="frame" x="16" y="40" width="288" height="66"/>
+                                <animations/>
                                 <string key="text">A couple of questions first:
 what measurement system do you prefer?</string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
@@ -116,6 +122,7 @@ what measurement system do you prefer?</string>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dEP-tj-efq">
                                         <rect key="frame" x="240" y="20" width="60" height="60"/>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="HiL-kT-eIK"/>
@@ -136,6 +143,7 @@ what measurement system do you prefer?</string>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmh-gA-cnz">
                                         <rect key="frame" x="20" y="20" width="60" height="60"/>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="EGF-Pz-3li"/>
@@ -155,6 +163,7 @@ what measurement system do you prefer?</string>
                                         </connections>
                                     </button>
                                 </subviews>
+                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="xmh-gA-cnz" firstAttribute="leading" secondItem="qww-zt-6DG" secondAttribute="leading" constant="20" id="7cL-Ju-TYA"/>
@@ -169,12 +178,14 @@ what measurement system do you prefer?</string>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Liters" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hoW-cL-j0l">
                                         <rect key="frame" x="70" y="16" width="48" height="28"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check-icon" translatesAutoresizingMaskIntoConstraints="NO" id="YjV-vs-zoa">
                                         <rect key="frame" x="20" y="10" width="40" height="40"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="40" id="5fu-1F-Apc"/>
                                             <constraint firstAttribute="height" constant="40" id="ekk-qK-Ppi"/>
@@ -182,6 +193,7 @@ what measurement system do you prefer?</string>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SH2-qV-ied">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                                        <animations/>
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -190,6 +202,7 @@ what measurement system do you prefer?</string>
                                         </connections>
                                     </button>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="centerY" secondItem="hoW-cL-j0l" secondAttribute="centerY" id="CoM-Po-4oy"/>
                                     <constraint firstAttribute="bottom" secondItem="SH2-qV-ied" secondAttribute="bottom" id="NCI-TA-NWW"/>
@@ -207,6 +220,7 @@ what measurement system do you prefer?</string>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check-icon" translatesAutoresizingMaskIntoConstraints="NO" id="Naf-BJ-WFS">
                                         <rect key="frame" x="20" y="10" width="40" height="40"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="1g9-2r-ydT"/>
                                             <constraint firstAttribute="width" constant="40" id="bVU-EQ-CMe"/>
@@ -214,12 +228,14 @@ what measurement system do you prefer?</string>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ounces" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUi-CZ-r3F">
                                         <rect key="frame" x="70" y="16" width="69" height="28"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKD-XC-gWJ">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                                        <animations/>
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -228,6 +244,7 @@ what measurement system do you prefer?</string>
                                         </connections>
                                     </button>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="TKD-XC-gWJ" secondAttribute="trailing" id="5Ry-Bz-uwS"/>
                                     <constraint firstItem="rUi-CZ-r3F" firstAttribute="leading" secondItem="Naf-BJ-WFS" secondAttribute="trailing" constant="10" id="9kP-vL-okQ"/>
@@ -241,6 +258,7 @@ what measurement system do you prefer?</string>
                                 </constraints>
                             </view>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.15686274510000001" green="0.3921568627" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="aNx-Gk-pr3" firstAttribute="top" secondItem="k5a-UD-A8v" secondAttribute="bottom" constant="20" id="3Oq-Mq-bPC"/>
@@ -286,6 +304,7 @@ what measurement system do you prefer?</string>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JSe-R9-wt9" userLabel="Header">
                                 <rect key="frame" x="16" y="40" width="288" height="110"/>
+                                <animations/>
                                 <string key="text">I’ll keep track of your water consumption through gulps, you just need to set up your usual small gulp (a glass of water, usually 0,2 L or 8 oz) and big gulp (let’s say a bottle)</string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -296,6 +315,7 @@ what measurement system do you prefer?</string>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3E1-6i-418">
                                         <rect key="frame" x="240" y="20" width="60" height="60"/>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="OHM-AK-BEa"/>
@@ -316,6 +336,7 @@ what measurement system do you prefer?</string>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjk-yP-pgN">
                                         <rect key="frame" x="20" y="20" width="60" height="60"/>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="MTy-um-B71"/>
@@ -335,6 +356,7 @@ what measurement system do you prefer?</string>
                                         </connections>
                                     </button>
                                 </subviews>
+                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="hjk-yP-pgN" firstAttribute="leading" secondItem="VQR-RN-FoH" secondAttribute="leading" constant="20" id="0da-jJ-cCd"/>
@@ -349,12 +371,14 @@ what measurement system do you prefer?</string>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Small gulp" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WfK-EQ-Qob">
                                         <rect key="frame" x="70" y="16" width="95" height="28"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="small-icon" translatesAutoresizingMaskIntoConstraints="NO" id="Oe9-EU-gxI">
                                         <rect key="frame" x="20" y="10" width="40" height="40"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="40" id="2K7-CW-TwC"/>
                                             <constraint firstAttribute="height" constant="40" id="fjM-WA-NkI"/>
@@ -362,6 +386,7 @@ what measurement system do you prefer?</string>
                                     </imageView>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.2" placeholder="glass" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e8D-nG-89R">
                                         <rect key="frame" x="183" y="0.0" width="90" height="60"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="90" id="2Zx-3z-dua"/>
                                         </constraints>
@@ -374,11 +399,13 @@ what measurement system do you prefer?</string>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="oz" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIJ-Qh-sXS">
                                         <rect key="frame" x="283" y="19" width="17" height="22"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="wIJ-Qh-sXS" secondAttribute="trailing" constant="20" id="9bK-Zu-Zal"/>
                                     <constraint firstAttribute="bottom" secondItem="e8D-nG-89R" secondAttribute="bottom" id="Amb-rd-RA1"/>
@@ -397,6 +424,7 @@ what measurement system do you prefer?</string>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="large-icon" translatesAutoresizingMaskIntoConstraints="NO" id="mCL-Fz-XGC">
                                         <rect key="frame" x="20" y="10" width="40" height="40"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="3NU-fl-76I"/>
                                             <constraint firstAttribute="width" constant="40" id="Awk-Wh-jKe"/>
@@ -404,18 +432,21 @@ what measurement system do you prefer?</string>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Big gulp" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kMj-hq-rjr">
                                         <rect key="frame" x="70" y="16" width="76" height="28"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="oz" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s4e-zS-DTj">
                                         <rect key="frame" x="283" y="19" width="17" height="22"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.5" placeholder="bottle" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gFP-R6-3l1">
                                         <rect key="frame" x="183" y="0.0" width="90" height="60"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="90" id="6lS-LW-dPX"/>
                                         </constraints>
@@ -427,6 +458,7 @@ what measurement system do you prefer?</string>
                                         </connections>
                                     </textField>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="centerY" secondItem="s4e-zS-DTj" secondAttribute="centerY" id="3gK-m5-Lp1"/>
                                     <constraint firstItem="gFP-R6-3l1" firstAttribute="top" secondItem="plP-Gr-jkv" secondAttribute="top" id="5zd-Uq-6Em"/>
@@ -441,6 +473,7 @@ what measurement system do you prefer?</string>
                                 </constraints>
                             </view>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.15686274510000001" green="0.3921568627" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="plP-Gr-jkv" firstAttribute="leading" secondItem="Nn4-vs-Hzu" secondAttribute="leading" id="FXT-Fy-7eB"/>
@@ -491,6 +524,7 @@ what measurement system do you prefer?</string>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now, set your daily goal. An average goal is around 2 L or 64 oz per day, but it can vary with your build." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbv-Ph-Ogi" userLabel="Header">
                                 <rect key="frame" x="16" y="40" width="288" height="66"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -500,6 +534,7 @@ what measurement system do you prefer?</string>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFe-jD-qxw">
                                         <rect key="frame" x="240" y="20" width="60" height="60"/>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="1hT-A8-yvW"/>
@@ -520,6 +555,7 @@ what measurement system do you prefer?</string>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qra-1E-3OP">
                                         <rect key="frame" x="20" y="20" width="60" height="60"/>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="3V3-Jh-pdB"/>
@@ -539,6 +575,7 @@ what measurement system do you prefer?</string>
                                         </connections>
                                     </button>
                                 </subviews>
+                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="2Qk-mT-eqb"/>
@@ -553,12 +590,14 @@ what measurement system do you prefer?</string>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily goal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6E-SK-ldz">
                                         <rect key="frame" x="20" y="16" width="90" height="28"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="2.0" placeholder="goal" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S54-HU-dVI">
                                         <rect key="frame" x="181" y="0.0" width="90" height="60"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="90" id="YtZ-tJ-fYE"/>
                                         </constraints>
@@ -571,11 +610,13 @@ what measurement system do you prefer?</string>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="oz" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OlE-qk-N7s">
                                         <rect key="frame" x="281" y="17" width="19" height="25"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstItem="K6E-SK-ldz" firstAttribute="leading" secondItem="xdk-cL-gdm" secondAttribute="leading" constant="20" id="5fo-Rh-4vQ"/>
                                     <constraint firstAttribute="height" constant="60" id="Add-FA-bas"/>
@@ -588,6 +629,7 @@ what measurement system do you prefer?</string>
                                 </constraints>
                             </view>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.15686274510000001" green="0.3921568627" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="xdk-cL-gdm" secondAttribute="trailing" id="HmS-ox-gNq"/>
@@ -631,6 +673,7 @@ what measurement system do you prefer?</string>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I can remind you to drink every once in a while. Since I don’t want to nag you, you’ll decide when:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9n-t2-EOq" userLabel="Header">
                                 <rect key="frame" x="16" y="40" width="288" height="66"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -640,6 +683,7 @@ what measurement system do you prefer?</string>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWy-za-zrz">
                                         <rect key="frame" x="240" y="20" width="60" height="60"/>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="KAo-2i-IFn"/>
@@ -660,6 +704,7 @@ what measurement system do you prefer?</string>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wB4-SV-rbT">
                                         <rect key="frame" x="20" y="20" width="60" height="60"/>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="7Qb-Bt-TCl"/>
@@ -679,6 +724,7 @@ what measurement system do you prefer?</string>
                                         </connections>
                                     </button>
                                 </subviews>
+                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="LWy-za-zrz" secondAttribute="bottom" constant="20" id="8LC-of-Zp3"/>
@@ -693,18 +739,21 @@ what measurement system do you prefer?</string>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remind me" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVT-8Y-PAY">
                                         <rect key="frame" x="20" y="11" width="102" height="28"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gl4-fV-2SB">
                                         <rect key="frame" x="251" y="10" width="51" height="31"/>
+                                        <animations/>
                                         <color key="onTintColor" red="0.15686274510000001" green="0.3921568627" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="enableNotifications:" destination="UpA-CQ-AM6" eventType="valueChanged" id="Mqf-mo-XDV"/>
                                         </connections>
                                     </switch>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="gl4-fV-2SB" secondAttribute="trailing" constant="20" id="MFk-Yf-UG8"/>
                                     <constraint firstAttribute="height" constant="50" id="MoA-z0-TEo"/>
@@ -718,18 +767,21 @@ what measurement system do you prefer?</string>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TTz-34-edX">
                                         <rect key="frame" x="20" y="11" width="47" height="28"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxY-Gi-w4N">
                                         <rect key="frame" x="249" y="11" width="51" height="28"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tqy-KV-8mT">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                                        <animations/>
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -738,6 +790,7 @@ what measurement system do you prefer?</string>
                                         </connections>
                                     </button>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="8qP-1T-Q8d"/>
                                     <constraint firstItem="Tqy-KV-8mT" firstAttribute="leading" secondItem="QuN-dL-t69" secondAttribute="leading" id="ZZ9-qu-cE1"/>
@@ -756,18 +809,21 @@ what measurement system do you prefer?</string>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjg-oM-azP">
                                         <rect key="frame" x="20" y="11" width="22" height="28"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0pm-Fb-nta">
                                         <rect key="frame" x="249" y="11" width="51" height="28"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXD-3s-NZ3">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                                        <animations/>
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -776,6 +832,7 @@ what measurement system do you prefer?</string>
                                         </connections>
                                     </button>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstItem="KXD-3s-NZ3" firstAttribute="top" secondItem="n2T-25-lRf" secondAttribute="top" id="22t-zr-3Wj"/>
                                     <constraint firstAttribute="bottom" secondItem="KXD-3s-NZ3" secondAttribute="bottom" id="7Rp-SG-Sm6"/>
@@ -793,18 +850,21 @@ what measurement system do you prefer?</string>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Every" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6pM-Tq-50n">
                                         <rect key="frame" x="20" y="11" width="49" height="28"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 hour" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Xn-gc-3Bx">
                                         <rect key="frame" x="242" y="11" width="58" height="28"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RoW-Fv-Wot">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                                        <animations/>
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -813,6 +873,7 @@ what measurement system do you prefer?</string>
                                         </connections>
                                     </button>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="RoW-Fv-Wot" secondAttribute="trailing" id="JBR-FE-kh2"/>
                                     <constraint firstAttribute="trailing" secondItem="9Xn-gc-3Bx" secondAttribute="trailing" constant="20" id="JpV-1A-IK4"/>
@@ -826,6 +887,7 @@ what measurement system do you prefer?</string>
                                 </constraints>
                             </view>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.15686274510000001" green="0.3921568627" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="4ng-Ck-Uhi" firstAttribute="leading" secondItem="GqB-jz-M2M" secondAttribute="leading" id="4fD-Q8-x55"/>
@@ -875,6 +937,7 @@ what measurement system do you prefer?</string>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="y50-mX-m9k">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -894,10 +957,5 @@ what measurement system do you prefer?</string>
         <image name="prev-icon" width="40" height="40"/>
         <image name="small-icon" width="40" height="40"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
     <color key="tintColor" red="0.15686274510000001" green="0.3921568627" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
 </document>
