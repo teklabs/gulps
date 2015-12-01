@@ -35,7 +35,7 @@
 			<key>UIApplicationShortcutItemTitle</key>
 			<string>ADD_SMALL_GULP</string>
 			<key>UIApplicationShortcutItemType</key>
-			<string>it.fancypixel.gulps.small</string>
+			<string>com.teklabsco.gulps.small</string>
 		</dict>
 		<dict>
 			<key>UIApplicationShortcutItemIconFile</key>
@@ -43,7 +43,7 @@
 			<key>UIApplicationShortcutItemTitle</key>
 			<string>ADD_BIG_GULP</string>
 			<key>UIApplicationShortcutItemType</key>
-			<string>it.fancypixel.gulps.big</string>
+			<string>com.teklabsco.gulps.big</string>
 		</dict>
 	</array>
 	<key>UILaunchStoryboardName</key>
@@ -53,6 +53,7 @@
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
+		<string>healthkit</string>
 	</array>
 	<key>UIStatusBarHidden</key>
 	<false/>

@@ -651,7 +651,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = "Fancy Pixel";
+				ORGANIZATIONNAME = "Teklabs, LLC";
 				TargetAttributes = {
 					654764B31AF267D100C68C2A = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -659,7 +659,7 @@
 					};
 					65F44C1A1AF24B440093A3E9 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = H72GR44F4M;
+						DevelopmentTeam = V3QESDZJG8;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -1098,7 +1098,7 @@
 				INFOPLIST_FILE = GulpsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "it.fancypixel.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teklabsco.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gulps.app/Gulps";
 			};
@@ -1117,7 +1117,7 @@
 				INFOPLIST_FILE = GulpsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "it.fancypixel.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teklabsco.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gulps.app/Gulps";
 			};
@@ -1224,7 +1224,7 @@
 				INFOPLIST_FILE = Gulps/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = it.fancypixel.BigGulp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teklabsco.BigGulp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -1237,7 +1237,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Gulps/Gulps.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1247,7 +1247,7 @@
 				INFOPLIST_FILE = Gulps/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = it.fancypixel.BigGulp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teklabsco.BigGulp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -1273,7 +1273,15 @@
 				INFOPLIST_FILE = GulpsToday/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "it.fancypixel.BigGulp.Gulps-Today";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					"\"Realm\"",
+					"-framework",
+					"\"RealmSwift\"",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teklabsco.BigGulp.Gulps-Today";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -1296,7 +1304,15 @@
 				INFOPLIST_FILE = GulpsToday/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "it.fancypixel.BigGulp.Gulps-Today";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					"\"Realm\"",
+					"-framework",
+					"\"RealmSwift\"",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teklabsco.BigGulp.Gulps-Today";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -1316,7 +1332,7 @@
 				);
 				IBSC_MODULE = Gulps_WatchKit_Extension;
 				INFOPLIST_FILE = "Gulps WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = it.fancypixel.BigGulp.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teklabsco.BigGulp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1335,7 +1351,7 @@
 				ENABLE_BITCODE = YES;
 				IBSC_MODULE = Gulps_WatchKit_Extension;
 				INFOPLIST_FILE = "Gulps WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = it.fancypixel.BigGulp.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teklabsco.BigGulp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1361,7 +1377,7 @@
 				INFOPLIST_FILE = "Gulps WatchKit Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = it.fancypixel.BigGulp.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teklabsco.BigGulp.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -1384,7 +1400,7 @@
 				INFOPLIST_FILE = "Gulps WatchKit Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = it.fancypixel.BigGulp.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teklabsco.BigGulp.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
