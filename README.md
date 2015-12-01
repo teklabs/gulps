@@ -7,6 +7,10 @@ Gulps lets you track your daily water intake in a simple and intuitive way: set 
 
 This app is available in the [AppStore](https://itunes.apple.com/us/app/gulps/id979057304?ls=1&mt=8). Learn more [here](http://www.fancypixel.it/gulps/index.html).
 
+#TODO
+*Add Parse Login
+
+
 #Description
 
 You can learn how to share data between an iOS app and its extension using Realm.  
